@@ -1,0 +1,24 @@
+{
+  "name": "skynet",
+  "version": "1.0.0",
+  "description": "Discord Skynet Bot",
+  "main": "app.js",
+  "engines": {
+	"node": "6.11.2",
+	"npm": "3.10.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node app.js"
+  },
+  "keywords": [
+	"heroku",
+	"discord,js"
+  ],
+  "author": "RapidFire4Life",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.1.0",
+    "djs-collection-persistent": "^0.1.3"
+  }
+}
